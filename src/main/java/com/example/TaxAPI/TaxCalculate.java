@@ -1,5 +1,8 @@
 package com.example.TaxAPI;
 
+import lombok.Data;
+
+@Data
 public class TaxCalculate {
 
     public String returnValue(double price){
