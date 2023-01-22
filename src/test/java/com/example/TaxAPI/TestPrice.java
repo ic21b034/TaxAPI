@@ -9,7 +9,6 @@ public class TestPrice {
     void returnTheRightPrice(){
         assertEquals(6,taxCalculate.taxCal(5));
     }
-
     @org.junit.jupiter.api.Test
     void returnTheWrongPrice(){
         assertNotEquals(8,taxCalculate.taxCal(5));
